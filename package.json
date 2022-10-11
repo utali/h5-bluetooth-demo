@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "Uta.li <uta.li@foxmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd-mobile": "^5.24.0",
+    "umi": "^4.0.22"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/web-bluetooth": "^0.0.15",
+    "typescript": "^4.1.2"
+  }
+}
